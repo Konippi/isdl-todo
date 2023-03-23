@@ -48,9 +48,7 @@ class TodoAddPage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: TextButton(
-          // ボタンをクリックした時の処理
           onPressed: () {
-            // "pop"で前の画面に戻る
             Navigator.of(context).pop();
           },
           child: const Text('Todo Add Page'),
