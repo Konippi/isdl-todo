@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:todo/view/todo_list_page.dart';
 
+/// Entry Point
 void main() {
   runApp(const TodoApp());
 }
